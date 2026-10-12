@@ -1,0 +1,9 @@
+name = "yakton-notes"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
+
+# After adding notes.yakton.net in Cloudflare:
+# routes = [{ pattern = "notes.yakton.net", custom_domain = true }]

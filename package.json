@@ -1,0 +1,1 @@
+{"name":"yakton-notes","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","check":"node --check public/js/notes.js","dev":"wrangler dev","deploy":"npm run build && wrangler deploy"},"devDependencies":{"wrangler":"^4.20.0"}}
